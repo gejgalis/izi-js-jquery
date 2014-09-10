@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test-fast"
   },
   "repository": {
     "type": "git",
