@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/gejgalis/izi-js",
   "dependencies": {
-    "izi-js": "^1.6.0-b4",
-    "jquery": "^2.1.1"
+    "izi-js": "~1.6.0",
+    "jquery": "~2.1.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
