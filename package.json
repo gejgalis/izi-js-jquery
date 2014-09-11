@@ -1,6 +1,6 @@
 {
   "name": "izi-js-jquery",
-  "version": "1.6.0-beta6",
+  "version": "1.6.0-beta7",
   "description": "jQuery framework implementation for izi-js",
   "main": "dist/izi-js-jquery.min.js",
   "files": [
