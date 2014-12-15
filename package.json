@@ -54,7 +54,7 @@
     "q": "^1.0.1"
   },
   "webjar": {
-    "artifactId": "izi-js",
+    "artifactId": "izi-js-jquery",
     "groupId": "org.izi"
   }
 }
