@@ -24,8 +24,6 @@
     "jquery": "x.x.x"
   },
   "devDependencies": {
-    "izi-js": "~1.6.0",
-    "jquery": "~2.1.0",
     "grunt": "^0.4.5",
     "grunt-concat-in-order": "^0.1.6",
     "grunt-concat-sourcemap": "~0.4.3",
@@ -39,6 +37,9 @@
     "grunt-jsduck": "^1.0.1",
     "grunt-karma": "~0.8.3",
     "grunt-preprocessor": "^0.4.0",
+    "grunt-push-release": "^0.1.1",
+    "izi-js": "~1.6.0",
+    "jquery": "~2.1.0",
     "karma": "~0.12.16",
     "karma-chrome-launcher": "~0.1.4",
     "karma-coffee-preprocessor": "~0.1.2",

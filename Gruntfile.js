@@ -48,8 +48,30 @@ module.exports = function (grunt) {
         'karma:phantomjs'
     ]);
 
-    grunt.registerTask('deploy', [
-        'default'
+    grunt.registerTask('release-patch', [
+        // Just bump version from `0.0.1` to `0.0.2`
+        'push-only:patch',
+        'release'
+    ]);
+
+    grunt.registerTask('release-minor', [
+        // Just bump version from `0.1.1` to `0.2.0`
+        'push-only:minor',
+        'release'
+    ]);
+
+    grunt.registerTask('release', [
+        // Run build on bumped version
+        'default',
+
+        // Create tag, commit and push to remote repo
+        'push-commit',
+
+        // Publish to NPM
+        'push-publish',
+
+        // Convert `webjar/pom.template` to `webjar/pom.xml` and run `mvn clean deploy` in `webjar` directory
+        'maven-deploy'
     ]);
 
     grunt.registerTask('maven-install', [
