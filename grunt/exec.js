@@ -3,12 +3,12 @@ module.exports.tasks = {
         "maven-install": {
             cwd: 'webjar',
             command: 'mvn clean install'
-        }
-    },
+        },
 
-    // mvn deploy
-    "maven-deploy": {
-        cwd: 'webjar',
-        command: 'mvn clean deploy'
+        // mvn deploy
+        "maven-deploy": {
+            cwd: 'webjar',
+            command: 'mvn clean deploy'
+        }
     }
 };
