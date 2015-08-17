@@ -37,7 +37,7 @@
     "grunt-jsduck": "^1.0.1",
     "grunt-karma": "~0.8.3",
     "grunt-preprocessor": "^0.4.0",
-    "grunt-push-release": "^0.1.1",
+    "grunt-push-release": "^0.1.9",
     "izi-js": "~1.6.0",
     "jquery": "~2.1.0",
     "karma": "~0.12.16",
