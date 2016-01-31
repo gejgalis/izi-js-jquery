@@ -1,6 +1,6 @@
 {
   "name": "izi-js-jquery",
-  "version": "1.6.1",
+  "version": "1.7.1",
   "description": "jQuery framework implementation for izi-js",
   "main": "dist/izi-js-jquery.min.js",
   "files": [
@@ -38,7 +38,7 @@
     "grunt-karma": "~0.8.3",
     "grunt-preprocessor": "^0.4.0",
     "grunt-push-release": "^0.1.9",
-    "izi-js": "~1.6.0",
+    "izi-js": "1.7.1",
     "jquery": "~2.1.0",
     "karma": "~0.12.16",
     "karma-chrome-launcher": "~0.1.4",
